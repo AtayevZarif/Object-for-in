@@ -19,17 +19,17 @@ let zarif = {
     method4: myFunction4 = () =>{
         let array = [1,2,3,4,5,6,7,8,9,10]
         let even = []
-        let toq = []
+        let odd = []
         for (let i = 0; i < 10; i++) {
             if (array[i] % 2 == 0) {
                 even.push(array[i])
             }
             else{
-                toq.push(array[i])
+                odd.push(array[i])
             }
         }
         console.log(even);
-        console.log(toq);
+        console.log(odd);
     },
 }
 
